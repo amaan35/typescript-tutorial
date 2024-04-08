@@ -1,8 +1,10 @@
-var age = 30;
+let age = 30
 console.log(age);
+
 // How to define types
-var marks = 90;
-var firstName;
+let marks: number = 90
+let firstName: string
+
 console.log(marks);
-firstName = "Amaan";
+firstName = "Amaan Ali";
 console.log(firstName);
