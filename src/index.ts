@@ -6,5 +6,5 @@ let marks: number = 90
 let firstName: string
 
 console.log(marks);
-firstName = "Amaan Ali";
+firstName = "Amaan";
 console.log(firstName);

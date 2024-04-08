@@ -5,5 +5,5 @@ console.log(age);
 let marks = 90;
 let firstName;
 console.log(marks);
-firstName = "Amaan Ali";
+firstName = "Amaan";
 console.log(firstName);
