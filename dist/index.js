@@ -1,8 +1,9 @@
 "use strict";
-// variable
-let abc = "hello world";
-// functions
-const getFullName = (name, surname) => {
-    return name + " " + surname;
+const user = {
+    name: "Amaan",
+    age: 23,
 };
-console.log(getFullName("Amaan", "Ali"));
+const user2 = {
+    name: "Ali",
+};
+console.log(user2.name);
