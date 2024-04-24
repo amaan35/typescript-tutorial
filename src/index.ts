@@ -1,19 +1,10 @@
-//arrays
+// variable
+let abc: string = "hello world";
 
-let names: string[]
-names = ['Syed','Amaan', 'Ali'];
-let ages: number[] = [10,20,30];
+// functions
+const getFullName = (name:string, surname:string):string => {
+  return name +" "+ surname;
+};
 
-names.push('hello')
-ages.push(40)
+console.log(getFullName("Amaan", "Ali"));
 
-console.log(names);
-console.log(ages);
-
-//type inference with arrays
-
-let fruits = ['mango', 'apple', 'banana']
-fruits.push('peaches');
-const f = fruits[2];    //f is string
-let things = [1, true, 'hello']
-const t = things[2]     //t is string|boolean|number
