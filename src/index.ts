@@ -1,20 +1,9 @@
-interface IUser {
-  name: string; //mandatory field
-  age?: number; //optional field
-  getMessage():string;
-}
-const user: IUser = {
-  name: "Amaan",
-  age: 23,
-  getMessage() {
-      return "hello "+this.name
-  },
-};
-const user2: IUser = {
-  name: "Ali",
-  getMessage() {
-      return "hello "+this.name
-  },
-};
+//union
+let error : string | null = null;
 
-console.log(user.getMessage());
+setTimeout(() => {
+    error="This is an error"
+    console.log(error);
+}, 3000);
+
+console.log(error);

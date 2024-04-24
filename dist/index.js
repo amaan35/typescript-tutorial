@@ -1,15 +1,8 @@
 "use strict";
-const user = {
-    name: "Amaan",
-    age: 23,
-    getMessage() {
-        return "hello " + this.name;
-    },
-};
-const user2 = {
-    name: "Ali",
-    getMessage() {
-        return "hello " + this.name;
-    },
-};
-console.log(user.getMessage());
+//union
+let error = null;
+setTimeout(() => {
+    error = "This is an error";
+    console.log(error);
+}, 3000);
+console.log(error);
