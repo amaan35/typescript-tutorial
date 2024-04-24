@@ -1,5 +1,12 @@
-//union
+//custom type
+interface IUser {
+    name: string;
+    age: number;
+}
+//union without custom
 let error : string | null = null;
+//union with custom type
+let user : IUser | null = null;
 
 setTimeout(() => {
     error="This is an error"
